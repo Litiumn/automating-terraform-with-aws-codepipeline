@@ -18,7 +18,7 @@ resource "aws_instance" "web_server" {
               EOF
 
   tags = {
-    Name        = "demo-web-server-stage2"
+    Name        = "demo-sido-web-server-stage2"
     Environment = "demo"
     Stage       = "2-parameter-store"
   }
